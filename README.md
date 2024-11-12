@@ -1,21 +1,8 @@
-Certainly! Here's a detailed and professional `README.md` template for your project, including all the setup instructions and configurations for both backend and frontend:
 
-```markdown
-# Project Name
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Cloning the Project](#cloning-the-project)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [Database Configuration](#database-configuration)
-- [Running the Project](#running-the-project)
-- [Environment Variables](#environment-variables)
 
 
 ## Introduction
-This project is a modern web application that utilizes a Vite-powered React frontend and a backend framework (e.g., Laravel, Node.js, etc.). This guide will help you set up the project on your local development environment.
+This project is a **Laravel React Starter Kit** that provides a foundation for building web applications with a React frontend and Laravel backend. It includes user authentication managed by **Laravel Sanctum** for secure stateful sessions. This guide outlines how to set up and run the project locally.
 
 ## Prerequisites
 Ensure you have the following software installed on your system:
@@ -60,19 +47,16 @@ Ensure you have the following software installed on your system:
    ```
 
 ## Frontend Setup
-1. Navigate to the `frontend` directory:
+1. Navigate to the `client` directory:
    ```bash
-   cd frontend
+   cd client
    ```
 
 2. **Install the dependencies**:
    ```bash
    npm install
    ```
-   or
-   ```bash
-   yarn install
-   ```
+   
 
 3. **Configure the frontend environment file**:
    Create a `.env` file in the `frontend` directory if it doesn't exist. You can base it on `.env.example` or manually set the following:
