@@ -12,7 +12,7 @@ Certainly! Here's a detailed and professional `README.md` template for your proj
 - [Database Configuration](#database-configuration)
 - [Running the Project](#running-the-project)
 - [Environment Variables](#environment-variables)
-- [Troubleshooting](#troubleshooting)
+
 
 ## Introduction
 This project is a modern web application that utilizes a Vite-powered React frontend and a backend framework (e.g., Laravel, Node.js, etc.). This guide will help you set up the project on your local development environment.
@@ -111,10 +111,7 @@ Ensure you have the following software installed on your system:
    ```bash
    npm run dev
    ```
-   or
-   ```bash
-   yarn dev
-   ```
+  
 
 ## Environment Variables
 Ensure that the `.env` file in the backend root directory includes the following:
@@ -124,30 +121,4 @@ SANCTUM_STATEFUL_DOMAINS=localhost:5173
 SESSION_DOMAIN=localhost
 ```
 
-## Troubleshooting
-- **Common issues**:
-  - Ensure ports `8000` (backend) and `5173` (frontend) are not occupied by other processes.
-  - If there are CORS issues, double-check your `SANCTUM_STATEFUL_DOMAINS` and CORS configuration in the backend.
 
-- **Frontend specific**:
-  - Ensure the `VITE_BACKEND_URL` is set correctly in the `frontend/.env`.
-
-- **Backend specific**:
-  - Ensure your database is connected properly and that you have run the migrations.
-
-## License
-[MIT License](LICENSE)
-
-## Contact
-For further assistance, please reach out at [your-email@example.com].
-
----
-
-Happy coding!
-```
-
-### Explanation:
-- **Detailed Steps**: Each section includes clear steps, ensuring a comprehensive understanding for anyone setting up the project.
-- **Code Blocks**: Properly formatted code blocks make commands easy to copy and execute.
-- **Modular**: Easy to follow with separate sections for backend, frontend, and database.
-- **Customizable**: Replace placeholders (e.g., `yourusername`, `yourproject`) as needed.
